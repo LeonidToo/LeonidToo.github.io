@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width", initial-scale="1">
+    <title>Професионално косење</title>
+    <link rel="stylesheet" href="stil.css">
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+    <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous">
+</head>
+<body>
+   <section id="header">
+        <div class="container">
+            <img src="sliki/logo.png" class="logo">
+            <div class="header-text">
+                <h1>Професионално усовршување на вашиот двор</h1>
+                <span class="kocka"></span>
+                <p>Некои работи подобро е да ги оставите на професионалците.</p>
+                <button class="kopce" onclick="window.open('https://drive.google.com/drive/u/0/folders/1cb5NpNX8bAgXlCLCyEt0SQG63pW5lrn7','_blank')">Примероци од работата</button>
+                <div class="line">
+                    <span class="line-1"></span><br>
+                    <span class="line-2"></span><br>
+                    <span class="line-3"></span>
+                </div>
+            </div>
+        </div>
+   </section>
+
+   <nav id="Navigacia">
+    <ul>
+        <li><a href="#header">Почетна</a></li>
+        <li><a href="#about">За нас</a></li>
+        <li><a href="#work">Нашата работа</a></li>
+        <li><a href="#Contact">Контактирајте не</a></li>
+    </ul>
+   </nav>
+   <img src="sliki/menu.png" id="Meni">
+    
+   
+   
+   <!--about -->
+
+   <section id="about">
+    
+    <div class="about-right-col">
+        <div class="about-text">
+            <h1>За нас</h1>
+            <span class="kocka"></span>
+            <p>Компанијата која е започнана од фамилијата Петковски
+                е една од најдобрите и најдоверливите компании во 
+                својот простор на работа. По договреме без интернет
+                промоција страната е направена да се разшири бизнисот
+                низ цела држава.
+            </p><br><br>
+            <div class="line">
+                <span class="line-1"></span><br>
+                <span class="line-2"></span><br>
+                <span class="line-3"></span>
+            </div>
+            <h2>"Убавината на една куќа прво се гледа од ннејзината 
+                околина"
+            </h2>
+            <h3>---Мудар човек</h3>
+        </div>
+    </div>
+   </section>
+
+    <!--Нашата работа-->
+   
+   <section id="work">
+    <div class="container work-row">
+        <h1>Нашата работа</h1>
+    <div class="card">
+        <img src="sliki/Kosacka.jpg">
+        <p>Покривање на голем простор со помош на соодветен алат.</p>
+      </div>
+      
+      <div class="card">
+        <img src="sliki/trimer.jpg">
+        <p>Покривање на потешко пристапните делови со соодветен алат.</p>
+      </div>
+      
+      <div class="card">
+        <img src="sliki/Cistene.jpg">
+        <p>Чистење на последиците од завршената работа.</p>
+      </div>
+    </div>
+   </section>
+
+
+   <!--Контактирајте не-->
+<section id="Contact">
+    <div class="container contact-row">
+        <h1>Направете ја вашата нарачка </h1>
+        <form id="forma">
+            <div class="input-group">
+                <label>Име и презиме</label>
+                <input type="text" placeholder="Внесете го вашето име" id="contact-name" onkeyup="validateName()">
+                <span id="name-error"></span>
+            </div>
+            <div class="input-group">
+                <label>Телефонски број</label>
+                <input type="tel" placeholder="070 234 567(без празни места)" id="contact-phone" onkeyup="validatePhone()">
+                <span id="phone-error"></span>
+            </div>
+            <div class="input-group">
+                <label>Email адреса</label>
+                <input type="email" placeholder="Внесете ја вашата Email адреса" id="contact-email" onkeyup="validateEmail()">
+                <span id="email-error"></span>
+            </div>
+            <div class="input-group">
+                <label>Вашата нарачка</label>
+                <textarea rows="5" placeholder="Вашата нарачка напишете ја овде" id="contact-message" onkeyup="validateMessage()"></textarea>
+                <span id="message-error"></span>
+            </div>
+            <button onclick="return validateForm()">Поднеси</button>
+            <span id="submit-error"></span>
+        </form>
+    </div>
+</section>
+
+
+
+<!--Footer-->
+
+
+    <section id="footer">
+        <div class="container footer-row">
+            <hr>
+            <div class="footer-left-col">
+                <div class="footer-links">
+                    <div class="link-title">
+                        <h4>Компанијата</h4>
+                        <a href="https://www.facebook.com" target="_blank"><small>Нашиот план</small></a><br>
+                        <a href="https://www.facebook.com" target="_blank"><small>Напредокот</small></a>
+                    </div>
+                    <div class="link-title">
+                        <h4>За нас</h4>
+                        <a href=#about><small>Краток опис</small></a><br>
+                        <a href="https://www.facebook.com" target="_blank"><small>Повеќе информации</small></a>
+                    </div>
+                    <div class="link-title">
+                        <h4>Подршка</h4>
+                        <a href=#work><small>Нашата работа</small></a><br><br>
+                        <a href=#Contact><small>Контактирајте не</small></a><br>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-right-col">
+                <div class="footer-info">
+                    <div class="copyright-text">
+                        <small>support@kosenje.com</small><br>
+                        <small>copyright 2023 Kosenje</small>
+                    </div>
+                    <div class="footer-logo">
+                        <img src="sliki/logo.png">
+                        <button class="kopce">Македонски</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!--Socijalni-ikoni-->
+
+    <div class="social-icons">
+        <a href="https://www.facebook.com" target="_blank">
+        <img src="sliki/facebook.png">
+    </a>
+    <a href="https://www.instagram.com/leonidtodevski" target="_blank">
+        <img src="sliki/instagram.png">
+    </a>
+    <a href="https://twitter.com/LeonidTLoL" target="_blank">
+        <img src="sliki/twitter.png">
+    </a>
+    </div>
+
+    <script src="scripta.js"></script>
+
+   
+</body>
+</html>
