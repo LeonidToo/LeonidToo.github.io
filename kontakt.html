@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Персонална страна</title>
+    <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <style>
+        nav > ul > li:nth-child(4)>a{
+            background: #7A8889!important;
+        }
+    </style>
+</head>
+<body>
+<nav>
+    <ul>
+        <li><a href="index.html">Биографија</a></li>
+        <li><a href="veshtini.html">Вештини</a></li>
+        <li><a href="hobi.html">Хоби</a></li>
+        <li><a href="kontakt.html">Контакт</a></li>
+    </ul>
+</nav>
+<div class="contact-section">
+    <h2>Контакт форма</h2>
+    <form id="forma">
+        <div class="input-group">
+            <label>Име и презиме</label>
+            <input type="text" id="contact-name" placeholder="Внесете го вашето име и презиме" onkeyup="validateName()">
+            <span id="name-error"></span>
+        </div>
+
+        <div class="input-group">
+            <label>Email адреса</label>
+            <input type="email" id="contact-email" placeholder="Внесете ја вашата Email адреса" onkeyup="validateEmail()">
+            <span id="email-error"></span>
+        </div>
+
+        <div class="input-group">
+            <label>Вашата порака</label>
+            <textarea rows="5" id="contact-message" placeholder="Напишете ја пораката тука" onkeyup="validateMessage()"></textarea>
+            <span id="message-error"></span>
+        </div>
+
+        <button onclick="return validateForm()">Поднеси</button>
+        <span id="submit-error"></span>
+    </form>
+</div>
+
+<div class="contact-icons">
+    <a href="mailto:leotodevski09@gmail.com" target="_blank">
+        <img src="sliki/gmail.png" alt="Mail">
+    </a>
+    <a href="https://twitter.com/LeonidT05" target="_blank">
+        <img src="sliki/twitter.png" alt="Twitter">
+    </a>
+    <a href="https://www.instagram.com/leonidtodevski" target="_blank">
+        <img src="sliki/instagram.png" alt="Instagram">
+    </a>
+</div>
+<footer>
+    <p>&copy; 2025 Леонид Тодевски</p>
+</footer>
+<script src="script.js"></script>
+
+</body>
+</html>
