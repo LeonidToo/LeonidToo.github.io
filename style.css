@@ -104,7 +104,7 @@ body{
     gap: 20px;
     border-radius: 40px;
     margin: auto;
-    height: 250px;
+    height: 300px;
     background: #DBDBB0;
     /*background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.dev/svgjs' width='768' height='156' preserveAspectRatio='none' viewBox='0 0 768 156'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1011%26quot%3b)' fill='none'%3e%3cpath d='M608.9-15.49C511.23-14.5 424.39 89.34 232.7 90.04 41.02 90.74-48.85 132.09-143.49 132.16' stroke='rgba(176%2c 176%2c 219%2c 0.49)' stroke-width='2'%3e%3c/path%3e%3cpath d='M497.7-6.34C439.33-2.01 448.67 112.53 296.11 112.71 143.55 112.89-5.84 75.31-107.07 75.27' stroke='rgba(176%2c 176%2c 219%2c 0.49)' stroke-width='2'%3e%3c/path%3e%3cpath d='M491.45-5.16C428.24 1.24 390.38 135.5 280.63 136.73 170.87 137.96 175.21 117.23 69.8 117.23-35.61 117.23-88.09 136.71-141.02 136.73' stroke='rgba(176%2c 176%2c 219%2c 0.49)' stroke-width='2'%3e%3c/path%3e%3cpath d='M291.33-5.23C237.04-4.89 190.1 43.66 80.04 44.92-30.01 46.18-75.34 117.21-131.24 118.24' stroke='rgba(176%2c 176%2c 219%2c 0.49)' stroke-width='2'%3e%3c/path%3e%3cpath d='M341.32-4.12C302.76-4 305.75 23.9 189.75 24.37 73.75 24.84-35.94 87.98-113.39 88.33' stroke='rgba(176%2c 176%2c 219%2c 0.49)' stroke-width='2'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1011'%3e%3crect width='768' height='156' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");*/
     background-repeat: no-repeat;
